@@ -1,5 +1,6 @@
 /** 
- * Clase: casa
+ * Clase: casa donde se crearan los objetos de manera de dibujar la figura.
+ * @version 17 agosto 2017
  */
 public class House
 {
@@ -22,7 +23,7 @@ public class House
     }
 
     /**
-     * Metodos
+     * Método que dibuja los objetos necesarios para dibujar la casa.
      */
     void dibujate() //Muestra las figuras en pantalla
     {
@@ -32,6 +33,9 @@ public class House
         pared.makeVisible();
     }
     
+    /**
+     * Acomoda los objetos de manera que se represente la casa.
+     */
     void acomodate() //Coloca en un lugar determinado cada figura
     {
         //Pared
